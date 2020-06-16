@@ -3175,6 +3175,7 @@ PRODUCT_COPY_FILES += \
  
 PRODUCT_PACKAGES += \
     libbtconfigstore \
+    libaudio_log_utils \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
