@@ -3234,6 +3234,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/com.sony.device.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sony.device.xml \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/com.sonymobile.mediacontent.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.mediacontent.xml \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/com.sonyericsson.system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.system.xml \
+    vendor/xiaomi/daisy/proprietary/framework/com.sony.device.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sony.device.jar \
+    vendor/xiaomi/daisy/proprietary/framework/com.sonyericsson.system.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.system.jar \
+    vendor/xiaomi/daisy/proprietary/framework/com.sonyericsson.music.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.music.jar \
+    vendor/xiaomi/daisy/proprietary/framework/com.sonymobile.mediacontent.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.mediacontent.jar \
+    vendor/xiaomi/daisy/proprietary/etc/ds1-default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/ds1-default.xml \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/android.dolby.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.dolby.xml \
+    vendor/xiaomi/daisy/proprietary/framework/dolby_ds.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dolby_ds.jar \
  
 PRODUCT_PACKAGES += \
     libbtconfigstore \
